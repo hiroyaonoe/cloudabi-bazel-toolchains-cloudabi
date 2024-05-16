@@ -1,5 +1,5 @@
 exports_files([
-    "bin/clang-7",
+    "bin/clang-14",
     "bin/lld",
     "bin/llvm-ar",
 ])
