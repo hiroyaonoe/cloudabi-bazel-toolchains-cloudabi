@@ -79,7 +79,6 @@ cc_toolchain(
     static_runtime_lib = ":empty",
     strip_files = ":empty",
     supports_param_files = 0,
-    toolchain_config = "x86_64-unknown-cloudabi_config",
     toolchain_identifier = "x86_64-unknown-cloudabi",
     visibility = ["//visibility:public"],
 )
@@ -104,7 +103,6 @@ cc_toolchain(
     static_runtime_lib = ":empty",
     strip_files = ":empty",
     supports_param_files = 0,
-    toolchain_config = "x86_64-apple-darwin_config",
     toolchain_identifier = "x86_64-apple-darwin",
     visibility = ["//visibility:public"],
 )
@@ -120,7 +118,6 @@ cc_toolchain(
     static_runtime_lib = ":empty",
     strip_files = ":empty",
     supports_param_files = 0,
-    toolchain_config = "x86_64-unknown-freebsd_config",
     toolchain_identifier = "x86_64-unknown-freebsd",
     visibility = ["//visibility:public"],
 )
@@ -136,7 +133,6 @@ cc_toolchain(
     static_runtime_lib = ":empty",
     strip_files = ":empty",
     supports_param_files = 0,
-    toolchain_config = "x86_64-unknown-linux-gnu_config",
     toolchain_identifier = "x86_64-unknown-linux-gnu",
     visibility = ["//visibility:public"],
 )
